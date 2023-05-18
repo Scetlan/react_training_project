@@ -11,4 +11,4 @@ window.addEventListener('load', () => {
     //render({компанент с которого начинается приложение}, {элемент из itml верстки в которую будет монтироваться все что мы написали на React})
     ReactDOM.hydrate(<Header />, document.getElementById('react_root'));
 });
-//теперь создадим файл webpack.config.js
+///теперь создадим файл webpack.config.js
