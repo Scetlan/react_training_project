@@ -39,7 +39,7 @@ module.exports = {
             },
 
             ],
-            exlude: GLOBAL_CSS_REGEXP,
+            exclude: GLOBAL_CSS_REGEXP,
         },
         {
             test: GLOBAL_CSS_REGEXP,

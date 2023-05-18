@@ -14,7 +14,7 @@ function setupDevtool() {
 module.exports = {
     resolve: {
         extensions: [
-            '.js', '.jsx', '.ts', 'tsx', 'json'
+            '.js', '.jsx', '.ts', '.tsx', '.json'
         ],
         alias: {
             'react-dom': IS_DEV ? '@hot-loader/react-dom' : 'react-dom'
@@ -49,7 +49,7 @@ module.exports = {
 
             }
             ],
-            exlude: GLOBAL_CSS_REGEXP, 
+            exclude: GLOBAL_CSS_REGEXP, 
         }, 
         {
             test: GLOBAL_CSS_REGEXP,
