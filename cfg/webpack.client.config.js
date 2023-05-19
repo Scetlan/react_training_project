@@ -49,11 +49,11 @@ module.exports = {
 
             }
             ],
-            exclude: GLOBAL_CSS_REGEXP, 
-        }, 
+            exclude: GLOBAL_CSS_REGEXP
+        },
         {
             test: GLOBAL_CSS_REGEXP,
-            use: ['style-loader', 'css-loader'],
+            use: ['style-loader', 'css-loader']
         }
         ]
     },

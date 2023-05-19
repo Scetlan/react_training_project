@@ -15,7 +15,7 @@ module.exports = {
     },
     resolve: {
         extensions: [
-            '.js', '.jsx', '.ts', 'tsx', 'json'
+            '.js', '.jsx', '.ts', '.tsx', '.json'
         ]
     },
     externals: [nodeExternals()],
@@ -43,7 +43,7 @@ module.exports = {
         },
         {
             test: GLOBAL_CSS_REGEXP,
-            use: ['style-loader', 'css-loader'],
+            use: ['css-loader'],
         }
     ]
     },
